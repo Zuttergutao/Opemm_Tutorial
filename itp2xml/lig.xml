@@ -1,528 +1,238 @@
 <ForceField>
 	<Info>
-		<DataGenerated>2023-03-03 09:44:34.833586</DataGenerated>
-		<Source> Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3.1) on 2023-02-28
+		<DataGenerated>2023-03-03 12:49:03.931022</DataGenerated>
+		<Source> LIG_GMX.itp created by acpype (v: 2022.6.6) on Wed Jun 29 21:46:05 2022
 </Source>
 		<Reference>itp2xml (version 1.1) was developed by Casea; 2023.03.03</Reference>
 	</Info>
 	<AtomTypes>
-		<Type class="p5" element="P" mass="30.973762" name="LIG-P1" />
-		<Type class="p5" element="P" mass="30.973762" name="LIG-P2" />
-		<Type class="os" element="O" mass="15.999405" name="LIG-O3" />
-		<Type class="os" element="O" mass="15.999405" name="LIG-O4" />
-		<Type class="oh" element="O" mass="15.999405" name="LIG-O5" />
-		<Type class="o" element="O" mass="15.999405" name="LIG-O6" />
-		<Type class="oh" element="O" mass="15.999405" name="LIG-O7" />
-		<Type class="oh" element="O" mass="15.999405" name="LIG-O8" />
-		<Type class="o" element="O" mass="15.999405" name="LIG-O9" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C10" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C11" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C12" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C13" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C14" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C15" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C16" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C17" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C18" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C19" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C20" />
-		<Type class="c2" element="C" mass="12.010736" name="LIG-C21" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C22" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C23" />
-		<Type class="c3" element="C" mass="12.010736" name="LIG-C24" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H25" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H26" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H27" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H28" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H29" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H30" />
-		<Type class="ha" element="H" mass="1.007941" name="LIG-H31" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H32" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H33" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H34" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H35" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H36" />
-		<Type class="ha" element="H" mass="1.007941" name="LIG-H37" />
-		<Type class="ha" element="H" mass="1.007941" name="LIG-H38" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H39" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H40" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H41" />
-		<Type class="h1" element="H" mass="1.007941" name="LIG-H42" />
-		<Type class="h1" element="H" mass="1.007941" name="LIG-H43" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H44" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H45" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H46" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H47" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H48" />
-		<Type class="hc" element="H" mass="1.007941" name="LIG-H49" />
-		<Type class="ho" element="H" mass="1.007941" name="LIG-H50" />
-		<Type class="ho" element="H" mass="1.007941" name="LIG-H51" />
-		<Type class="ho" element="H" mass="1.007941" name="LIG-H52" />
+		<Type class="o" element="O" mass="16.00000" name="LIG-O" />
+		<Type class="c" element="C" mass="12.01000" name="LIG-C" />
+		<Type class="o" element="O" mass="16.00000" name="LIG-O1" />
+		<Type class="c3" element="C" mass="12.01000" name="LIG-C1" />
+		<Type class="n8" element="N" mass="14.01000" name="LIG-N" />
+		<Type class="hn" element="H" mass="1.00800" name="LIG-H" />
+		<Type class="hn" element="H" mass="1.00800" name="LIG-H2" />
+		<Type class="c3" element="C" mass="12.01000" name="LIG-C2" />
+		<Type class="c3" element="C" mass="12.01000" name="LIG-C3" />
+		<Type class="c3" element="C" mass="12.01000" name="LIG-C4" />
+		<Type class="c3" element="C" mass="12.01000" name="LIG-C5" />
+		<Type class="n8" element="N" mass="14.01000" name="LIG-N1" />
+		<Type class="hn" element="H" mass="1.00800" name="LIG-H3" />
+		<Type class="hn" element="H" mass="1.00800" name="LIG-H4" />
+		<Type class="h1" element="H" mass="1.00800" name="LIG-H6" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H7" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H8" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H9" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H10" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H11" />
+		<Type class="hc" element="H" mass="1.00800" name="LIG-H12" />
+		<Type class="h1" element="H" mass="1.00800" name="LIG-H13" />
+		<Type class="h1" element="H" mass="1.00800" name="LIG-H14" />
 	</AtomTypes>
 	<Residues>
-		<Residue name="FPP">
-			<Atom charge="0.9448008571" name="P1" type="LIG-P1" />
-			<Atom charge="1.1244980763" name="P2" type="LIG-P2" />
-			<Atom charge="-0.2767484906" name="O3" type="LIG-O3" />
-			<Atom charge="-0.4596152789" name="O4" type="LIG-O4" />
-			<Atom charge="-0.5973920812" name="O5" type="LIG-O5" />
-			<Atom charge="-0.5892071296" name="O6" type="LIG-O6" />
-			<Atom charge="-0.5804457522" name="O7" type="LIG-O7" />
-			<Atom charge="-0.5792558586" name="O8" type="LIG-O8" />
-			<Atom charge="-0.6373345292" name="O9" type="LIG-O9" />
-			<Atom charge="0.2775056026" name="C10" type="LIG-C10" />
-			<Atom charge="-0.3152342450" name="C11" type="LIG-C11" />
-			<Atom charge="-0.2388494850" name="C12" type="LIG-C12" />
-			<Atom charge="0.1442400764" name="C13" type="LIG-C13" />
-			<Atom charge="-0.4317156661" name="C14" type="LIG-C14" />
-			<Atom charge="0.1381773960" name="C15" type="LIG-C15" />
-			<Atom charge="0.2984838829" name="C16" type="LIG-C16" />
-			<Atom charge="-0.2068508799" name="C17" type="LIG-C17" />
-			<Atom charge="-0.4180329854" name="C18" type="LIG-C18" />
-			<Atom charge="-0.4588240069" name="C19" type="LIG-C19" />
-			<Atom charge="-0.4253327944" name="C20" type="LIG-C20" />
-			<Atom charge="0.2537795435" name="C21" type="LIG-C21" />
-			<Atom charge="0.2555343582" name="C22" type="LIG-C22" />
-			<Atom charge="-0.3132180636" name="C23" type="LIG-C23" />
-			<Atom charge="-0.2738727137" name="C24" type="LIG-C24" />
-			<Atom charge="-0.0183258341" name="H25" type="LIG-H25" />
-			<Atom charge="-0.0183258341" name="H26" type="LIG-H26" />
-			<Atom charge="0.0877954331" name="H27" type="LIG-H27" />
-			<Atom charge="0.0877954331" name="H28" type="LIG-H28" />
-			<Atom charge="0.0730280606" name="H29" type="LIG-H29" />
-			<Atom charge="0.0730280606" name="H30" type="LIG-H30" />
-			<Atom charge="0.2256847320" name="H31" type="LIG-H31" />
-			<Atom charge="0.0173982069" name="H32" type="LIG-H32" />
-			<Atom charge="0.0173982069" name="H33" type="LIG-H33" />
-			<Atom charge="0.0644461944" name="H34" type="LIG-H34" />
-			<Atom charge="0.0644461944" name="H35" type="LIG-H35" />
-			<Atom charge="0.0644461944" name="H36" type="LIG-H36" />
-			<Atom charge="0.1646502150" name="H37" type="LIG-H37" />
-			<Atom charge="0.1637844033" name="H38" type="LIG-H38" />
-			<Atom charge="0.1273359006" name="H39" type="LIG-H39" />
-			<Atom charge="0.1273359006" name="H40" type="LIG-H40" />
-			<Atom charge="0.1273359006" name="H41" type="LIG-H41" />
-			<Atom charge="0.0493637226" name="H42" type="LIG-H42" />
-			<Atom charge="0.0493637226" name="H43" type="LIG-H43" />
-			<Atom charge="0.0848636275" name="H44" type="LIG-H44" />
-			<Atom charge="0.0848636275" name="H45" type="LIG-H45" />
-			<Atom charge="0.0848636275" name="H46" type="LIG-H46" />
-			<Atom charge="0.0674325089" name="H47" type="LIG-H47" />
-			<Atom charge="0.0674325089" name="H48" type="LIG-H48" />
-			<Atom charge="0.0674325089" name="H49" type="LIG-H49" />
-			<Atom charge="0.4670479758" name="H50" type="LIG-H50" />
-			<Atom charge="0.4522283960" name="H51" type="LIG-H51" />
-			<Atom charge="0.4407605726" name="H52" type="LIG-H52" />
-			<Bond atomName1="P1" atomName2="O3" />
-			<Bond atomName1="P1" atomName2="O4" />
-			<Bond atomName1="P1" atomName2="O5" />
-			<Bond atomName1="P1" atomName2="O6" />
-			<Bond atomName1="P2" atomName2="O4" />
-			<Bond atomName1="P2" atomName2="O7" />
-			<Bond atomName1="P2" atomName2="O8" />
-			<Bond atomName1="P2" atomName2="O9" />
-			<Bond atomName1="O3" atomName2="C22" />
-			<Bond atomName1="O5" atomName2="H50" />
-			<Bond atomName1="O7" atomName2="H51" />
-			<Bond atomName1="O8" atomName2="H52" />
-			<Bond atomName1="C10" atomName2="C11" />
-			<Bond atomName1="C10" atomName2="C14" />
-			<Bond atomName1="C10" atomName2="H25" />
-			<Bond atomName1="C10" atomName2="H26" />
-			<Bond atomName1="C11" atomName2="C16" />
-			<Bond atomName1="C11" atomName2="H27" />
-			<Bond atomName1="C11" atomName2="H28" />
-			<Bond atomName1="C12" atomName2="C13" />
-			<Bond atomName1="C12" atomName2="C15" />
-			<Bond atomName1="C12" atomName2="H29" />
-			<Bond atomName1="C12" atomName2="H30" />
-			<Bond atomName1="C13" atomName2="C14" />
-			<Bond atomName1="C13" atomName2="C17" />
-			<Bond atomName1="C14" atomName2="H31" />
-			<Bond atomName1="C15" atomName2="C18" />
-			<Bond atomName1="C15" atomName2="H32" />
-			<Bond atomName1="C15" atomName2="H33" />
-			<Bond atomName1="C16" atomName2="C19" />
-			<Bond atomName1="C16" atomName2="C20" />
-			<Bond atomName1="C17" atomName2="H34" />
-			<Bond atomName1="C17" atomName2="H35" />
-			<Bond atomName1="C17" atomName2="H36" />
-			<Bond atomName1="C18" atomName2="C21" />
-			<Bond atomName1="C18" atomName2="H37" />
-			<Bond atomName1="C19" atomName2="C22" />
-			<Bond atomName1="C19" atomName2="H38" />
-			<Bond atomName1="C20" atomName2="H39" />
-			<Bond atomName1="C20" atomName2="H40" />
-			<Bond atomName1="C20" atomName2="H41" />
-			<Bond atomName1="C21" atomName2="C23" />
-			<Bond atomName1="C21" atomName2="C24" />
-			<Bond atomName1="C22" atomName2="H42" />
-			<Bond atomName1="C22" atomName2="H43" />
-			<Bond atomName1="C23" atomName2="H44" />
-			<Bond atomName1="C23" atomName2="H45" />
-			<Bond atomName1="C23" atomName2="H46" />
-			<Bond atomName1="C24" atomName2="H47" />
-			<Bond atomName1="C24" atomName2="H48" />
-			<Bond atomName1="C24" atomName2="H49" />
+		<Residue name="LIG">
+			<Atom charge="-0.844800" name="O" type="LIG-O" />
+			<Atom charge="0.887600" name="C" type="LIG-C" />
+			<Atom charge="-0.844800" name="O1" type="LIG-O1" />
+			<Atom charge="0.018500" name="C1" type="LIG-C1" />
+			<Atom charge="-0.892800" name="N" type="LIG-N" />
+			<Atom charge="0.329800" name="H" type="LIG-H" />
+			<Atom charge="0.329800" name="H2" type="LIG-H2" />
+			<Atom charge="-0.063400" name="C2" type="LIG-C2" />
+			<Atom charge="-0.077400" name="C3" type="LIG-C3" />
+			<Atom charge="-0.121400" name="C4" type="LIG-C4" />
+			<Atom charge="0.147800" name="C5" type="LIG-C5" />
+			<Atom charge="-0.906800" name="N1" type="LIG-N1" />
+			<Atom charge="0.340800" name="H3" type="LIG-H3" />
+			<Atom charge="0.340800" name="H4" type="LIG-H4" />
+			<Atom charge="0.039700" name="H6" type="LIG-H6" />
+			<Atom charge="0.046700" name="H7" type="LIG-H7" />
+			<Atom charge="0.046700" name="H8" type="LIG-H8" />
+			<Atom charge="0.034200" name="H9" type="LIG-H9" />
+			<Atom charge="0.034200" name="H10" type="LIG-H10" />
+			<Atom charge="0.038700" name="H11" type="LIG-H11" />
+			<Atom charge="0.038700" name="H12" type="LIG-H12" />
+			<Atom charge="0.038700" name="H13" type="LIG-H13" />
+			<Atom charge="0.038700" name="H14" type="LIG-H14" />
+			<Bond atomName1="O" atomName2="C" />
+			<Bond atomName1="C" atomName2="O1" />
+			<Bond atomName1="C" atomName2="C1" />
+			<Bond atomName1="C1" atomName2="N" />
+			<Bond atomName1="C1" atomName2="C2" />
+			<Bond atomName1="C1" atomName2="H6" />
+			<Bond atomName1="N" atomName2="H" />
+			<Bond atomName1="N" atomName2="H2" />
+			<Bond atomName1="C2" atomName2="C3" />
+			<Bond atomName1="C2" atomName2="H7" />
+			<Bond atomName1="C2" atomName2="H8" />
+			<Bond atomName1="C3" atomName2="C4" />
+			<Bond atomName1="C3" atomName2="H9" />
+			<Bond atomName1="C3" atomName2="H10" />
+			<Bond atomName1="C4" atomName2="C5" />
+			<Bond atomName1="C4" atomName2="H11" />
+			<Bond atomName1="C4" atomName2="H12" />
+			<Bond atomName1="C5" atomName2="N1" />
+			<Bond atomName1="C5" atomName2="H13" />
+			<Bond atomName1="C5" atomName2="H14" />
+			<Bond atomName1="N1" atomName2="H3" />
+			<Bond atomName1="N1" atomName2="H4" />
 		</Residue>
 	</Residues>
 	<HarmonicBondForce>
-		<Bond k="300263.1" length="0.157135" type1="LIG-P1" type2="LIG-O3" />
-		<Bond k="204057.2" length="0.163146" type1="LIG-P1" type2="LIG-O4" />
-		<Bond k="274250.1" length="0.160814" type1="LIG-P1" type2="LIG-O5" />
-		<Bond k="534278.3" length="0.148715" type1="LIG-P1" type2="LIG-O6" />
-		<Bond k="169475.3" length="0.16627" type1="LIG-P2" type2="LIG-O4" />
-		<Bond k="301345.2" length="0.158516" type1="LIG-P2" type2="LIG-O7" />
-		<Bond k="276920.9" length="0.160603" type1="LIG-P2" type2="LIG-O8" />
-		<Bond k="580596.3" length="0.147676" type1="LIG-P2" type2="LIG-O9" />
-		<Bond k="139555.7" length="0.148799" type1="LIG-O3" type2="LIG-C22" />
-		<Bond k="461833.6" length="0.097231" type1="LIG-O5" type2="LIG-H50" />
-		<Bond k="360999.2" length="0.099631" type1="LIG-O7" type2="LIG-H51" />
-		<Bond k="464811.3" length="0.097159" type1="LIG-O8" type2="LIG-H52" />
-		<Bond k="163759.9" length="0.154865" type1="LIG-C10" type2="LIG-C11" />
-		<Bond k="204382.0" length="0.150924" type1="LIG-C10" type2="LIG-C14" />
-		<Bond k="289103.5" length="0.109564" type1="LIG-C10" type2="LIG-H25" />
-		<Bond k="276880.2" length="0.110129" type1="LIG-C10" type2="LIG-H26" />
-		<Bond k="183503.9" length="0.151479" type1="LIG-C11" type2="LIG-C16" />
-		<Bond k="290490.5" length="0.109612" type1="LIG-C11" type2="LIG-H27" />
-		<Bond k="278280.5" length="0.110084" type1="LIG-C11" type2="LIG-H28" />
-		<Bond k="185566.3" length="0.151669" type1="LIG-C12" type2="LIG-C13" />
-		<Bond k="158488.4" length="0.154988" type1="LIG-C12" type2="LIG-C15" />
-		<Bond k="290918.0" length="0.109648" type1="LIG-C12" type2="LIG-H29" />
-		<Bond k="275314.5" length="0.110179" type1="LIG-C12" type2="LIG-H30" />
-		<Bond k="492717.6" length="0.134265" type1="LIG-C13" type2="LIG-C14" />
-		<Bond k="196229.9" length="0.151066" type1="LIG-C13" type2="LIG-C17" />
-		<Bond k="310049.1" length="0.109031" type1="LIG-C14" type2="LIG-H31" />
-		<Bond k="206283.9" length="0.1506" type1="LIG-C15" type2="LIG-C18" />
-		<Bond k="277045.3" length="0.110125" type1="LIG-C15" type2="LIG-H32" />
-		<Bond k="289121.7" length="0.109525" type1="LIG-C15" type2="LIG-H33" />
-		<Bond k="482874.5" length="0.134485" type1="LIG-C16" type2="LIG-C19" />
-		<Bond k="200471.2" length="0.150754" type1="LIG-C16" type2="LIG-C20" />
-		<Bond k="283626.5" length="0.109925" type1="LIG-C17" type2="LIG-H34" />
-		<Bond k="299192.1" length="0.109292" type1="LIG-C17" type2="LIG-H35" />
-		<Bond k="286477.1" length="0.109781" type1="LIG-C17" type2="LIG-H36" />
-		<Bond k="491846.8" length="0.134282" type1="LIG-C18" type2="LIG-C21" />
-		<Bond k="304972.5" length="0.109117" type1="LIG-C18" type2="LIG-H37" />
-		<Bond k="220840.7" length="0.149021" type1="LIG-C19" type2="LIG-C22" />
-		<Bond k="314647.0" length="0.108729" type1="LIG-C19" type2="LIG-H38" />
-		<Bond k="288500.5" length="0.109753" type1="LIG-C20" type2="LIG-H39" />
-		<Bond k="299566.4" length="0.109258" type1="LIG-C20" type2="LIG-H40" />
-		<Bond k="289947.9" length="0.109728" type1="LIG-C20" type2="LIG-H41" />
-		<Bond k="195349.2" length="0.151048" type1="LIG-C21" type2="LIG-C23" />
-		<Bond k="197577.6" length="0.151138" type1="LIG-C21" type2="LIG-C24" />
-		<Bond k="312194.0" length="0.108887" type1="LIG-C22" type2="LIG-H42" />
-		<Bond k="303112.0" length="0.109338" type1="LIG-C22" type2="LIG-H43" />
-		<Bond k="283094.4" length="0.109951" type1="LIG-C23" type2="LIG-H44" />
-		<Bond k="299171.3" length="0.10927" type1="LIG-C23" type2="LIG-H45" />
-		<Bond k="283205.7" length="0.109931" type1="LIG-C23" type2="LIG-H46" />
-		<Bond k="301268.2" length="0.109362" type1="LIG-C24" type2="LIG-H47" />
-		<Bond k="280616.7" length="0.110018" type1="LIG-C24" type2="LIG-H48" />
-		<Bond k="282167.0" length="0.109982" type1="LIG-C24" type2="LIG-H49" />
+		<Bond k="546100.0" length="0.1218" type1="LIG-O" type2="LIG-C" />
+		<Bond k="546100.0" length="0.1218" type1="LIG-C" type2="LIG-O1" />
+		<Bond k="203510.0" length="0.1524" type1="LIG-C" type2="LIG-C1" />
+		<Bond k="218570.0" length="0.1465" type1="LIG-C1" type2="LIG-N" />
+		<Bond k="194560.0" length="0.1538" type1="LIG-C1" type2="LIG-C2" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C1" type2="LIG-H6" />
+		<Bond k="427860.0" length="0.1019" type1="LIG-N" type2="LIG-H" />
+		<Bond k="427860.0" length="0.1019" type1="LIG-N" type2="LIG-H2" />
+		<Bond k="194560.0" length="0.1538" type1="LIG-C2" type2="LIG-C3" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C2" type2="LIG-H7" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C2" type2="LIG-H8" />
+		<Bond k="194560.0" length="0.1538" type1="LIG-C3" type2="LIG-C4" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C3" type2="LIG-H9" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C3" type2="LIG-H10" />
+		<Bond k="194560.0" length="0.1538" type1="LIG-C4" type2="LIG-C5" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C4" type2="LIG-H11" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C4" type2="LIG-H12" />
+		<Bond k="218570.0" length="0.1465" type1="LIG-C5" type2="LIG-N1" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C5" type2="LIG-H13" />
+		<Bond k="314550.0" length="0.1097" type1="LIG-C5" type2="LIG-H14" />
+		<Bond k="427860.0" length="0.1019" type1="LIG-N1" type2="LIG-H3" />
+		<Bond k="427860.0" length="0.1019" type1="LIG-N1" type2="LIG-H4" />
 	</HarmonicBondForce>
 	<HarmonicAngleForce>
-		<Angle angle="2.169723512909271" k="997.2995" type1="LIG-P1" type2="LIG-O3" type3="LIG-C22" />
-		<Angle angle="2.187456058109533" k="1034.287" type1="LIG-P1" type2="LIG-O4" type3="LIG-P2" />
-		<Angle angle="1.9593415248738741" k="392.1044" type1="LIG-P1" type2="LIG-O5" type3="LIG-H50" />
-		<Angle angle="1.939374958231059" k="372.5211" type1="LIG-P2" type2="LIG-O7" type3="LIG-H51" />
-		<Angle angle="1.9110482644711912" k="426.8187" type1="LIG-P2" type2="LIG-O8" type3="LIG-H52" />
-		<Angle angle="1.8906977253929371" k="847.7369" type1="LIG-O3" type2="LIG-P1" type3="LIG-O4" />
-		<Angle angle="1.797828755894319" k="936.4678" type1="LIG-O3" type2="LIG-P1" type3="LIG-O5" />
-		<Angle angle="1.9965693978189132" k="663.6701" type1="LIG-O3" type2="LIG-P1" type3="LIG-O6" />
-		<Angle angle="1.935762126679431" k="525.071" type1="LIG-O3" type2="LIG-C22" type3="LIG-C19" />
-		<Angle angle="1.802715677799903" k="429.5117" type1="LIG-O3" type2="LIG-C22" type3="LIG-H42" />
-		<Angle angle="1.8813776671872875" k="505.7485" type1="LIG-O3" type2="LIG-C22" type3="LIG-H43" />
-		<Angle angle="1.7748253163530336" k="895.2526" type1="LIG-O4" type2="LIG-P1" type3="LIG-O5" />
-		<Angle angle="1.938502293605062" k="953.7156" type1="LIG-O4" type2="LIG-P1" type3="LIG-O6" />
-		<Angle angle="1.8074978799503676" k="966.7907" type1="LIG-O4" type2="LIG-P2" type3="LIG-O7" />
-		<Angle angle="1.7595711386906032" k="1028.433" type1="LIG-O4" type2="LIG-P2" type3="LIG-O8" />
-		<Angle angle="1.9662530287117719" k="695.0081" type1="LIG-O4" type2="LIG-P2" type3="LIG-O9" />
-		<Angle angle="2.0458225893101933" k="877.1595" type1="LIG-O5" type2="LIG-P1" type3="LIG-O6" />
-		<Angle angle="1.7869379013618745" k="1022.658" type1="LIG-O7" type2="LIG-P2" type3="LIG-O8" />
-		<Angle angle="2.098740972230661" k="687.913" type1="LIG-O7" type2="LIG-P2" type3="LIG-O9" />
-		<Angle angle="2.0031667423914516" k="794.1875" type1="LIG-O8" type2="LIG-P2" type3="LIG-O9" />
-		<Angle angle="2.0011072538740984" k="1007.654" type1="LIG-C10" type2="LIG-C11" type3="LIG-C16" />
-		<Angle angle="1.9007159152993849" k="408.6179" type1="LIG-C10" type2="LIG-C11" type3="LIG-H27" />
-		<Angle angle="1.8878353854196666" k="387.7693" type1="LIG-C10" type2="LIG-C11" type3="LIG-H28" />
-		<Angle angle="2.230199171490874" k="517.6036" type1="LIG-C10" type2="LIG-C14" type3="LIG-C13" />
-		<Angle angle="2.0023813442280542" k="267.0259" type1="LIG-C10" type2="LIG-C14" type3="LIG-H31" />
-		<Angle angle="1.9632685156908614" k="1032.265" type1="LIG-C11" type2="LIG-C10" type3="LIG-C14" />
-		<Angle angle="1.9137011649342226" k="396.7056" type1="LIG-C11" type2="LIG-C10" type3="LIG-H25" />
-		<Angle angle="1.8646574129531819" k="436.3466" type1="LIG-C11" type2="LIG-C10" type3="LIG-H26" />
-		<Angle angle="2.085319390282825" k="564.466" type1="LIG-C11" type2="LIG-C16" type3="LIG-C19" />
-		<Angle angle="2.018455826638922" k="568.983" type1="LIG-C11" type2="LIG-C16" type3="LIG-C20" />
-		<Angle angle="2.092038907903003" k="545.6818" type1="LIG-C12" type2="LIG-C13" type3="LIG-C14" />
-		<Angle angle="2.0202360624759566" k="556.7304" type1="LIG-C12" type2="LIG-C13" type3="LIG-C17" />
-		<Angle angle="1.9804076489454456" k="1040.198" type1="LIG-C12" type2="LIG-C15" type3="LIG-C18" />
-		<Angle angle="1.8684796840150495" k="414.3499" type1="LIG-C12" type2="LIG-C15" type3="LIG-H32" />
-		<Angle angle="1.916022452839375" k="426.2771" type1="LIG-C12" type2="LIG-C15" type3="LIG-H33" />
-		<Angle angle="2.0087692492903537" k="986.7307" type1="LIG-C13" type2="LIG-C12" type3="LIG-C15" />
-		<Angle angle="1.9027230439391782" k="468.196" type1="LIG-C13" type2="LIG-C12" type3="LIG-H29" />
-		<Angle angle="1.9072259934093234" k="446.5703" type1="LIG-C13" type2="LIG-C12" type3="LIG-H30" />
-		<Angle angle="2.0505873381681377" k="255.9879" type1="LIG-C13" type2="LIG-C14" type3="LIG-H31" />
-		<Angle angle="1.928327024065935" k="462.4651" type1="LIG-C13" type2="LIG-C17" type3="LIG-H34" />
-		<Angle angle="1.9722046014610723" k="344.8998" type1="LIG-C13" type2="LIG-C17" type3="LIG-H35" />
-		<Angle angle="1.9435288418508054" k="432.0949" type1="LIG-C13" type2="LIG-C17" type3="LIG-H36" />
-		<Angle angle="1.9448901986673612" k="475.1117" type1="LIG-C14" type2="LIG-C10" type3="LIG-H25" />
-		<Angle angle="1.9255344972627442" k="398.7251" type1="LIG-C14" type2="LIG-C10" type3="LIG-H26" />
-		<Angle angle="2.1705089110726683" k="526.9602" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" />
-		<Angle angle="1.905585383912449" k="432.046" type1="LIG-C15" type2="LIG-C12" type3="LIG-H29" />
-		<Angle angle="1.874134550791511" k="396.2506" type1="LIG-C15" type2="LIG-C12" type3="LIG-H30" />
-		<Angle angle="2.243498580391071" k="527.8993" type1="LIG-C15" type2="LIG-C18" type3="LIG-C21" />
-		<Angle angle="1.9968137439141926" k="266.9869" type1="LIG-C15" type2="LIG-C18" type3="LIG-H37" />
-		<Angle angle="1.9043636534360529" k="464.4178" type1="LIG-C16" type2="LIG-C11" type3="LIG-H27" />
-		<Angle angle="1.9005937422517452" k="452.8121" type1="LIG-C16" type2="LIG-C11" type3="LIG-H28" />
-		<Angle angle="2.208749074983864" k="531.7176" type1="LIG-C16" type2="LIG-C19" type3="LIG-C22" />
-		<Angle angle="2.063101348904937" k="249.8101" type1="LIG-C16" type2="LIG-C19" type3="LIG-H38" />
-		<Angle angle="1.934749835713274" k="461.412" type1="LIG-C16" type2="LIG-C20" type3="LIG-H39" />
-		<Angle angle="1.9831827224561167" k="462.2043" type1="LIG-C16" type2="LIG-C20" type3="LIG-H40" />
-		<Angle angle="1.9126888739680659" k="415.6832" type1="LIG-C16" type2="LIG-C20" type3="LIG-H41" />
-		<Angle angle="1.9051315983069306" k="425.796" type1="LIG-C18" type2="LIG-C15" type3="LIG-H32" />
-		<Angle angle="1.94218493832677" k="512.0704" type1="LIG-C18" type2="LIG-C15" type3="LIG-H33" />
-		<Angle angle="2.1828134822992284" k="518.3491" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" />
-		<Angle angle="2.1066298604496754" k="521.0801" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" />
-		<Angle angle="2.1793053705027194" k="539.9961" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" />
-		<Angle angle="1.9829383763608377" k="479.1354" type1="LIG-C19" type2="LIG-C22" type3="LIG-H42" />
-		<Angle angle="1.9570725968462817" k="444.6671" type1="LIG-C19" type2="LIG-C22" type3="LIG-H43" />
-		<Angle angle="2.042733356534163" k="256.898" type1="LIG-C21" type2="LIG-C18" type3="LIG-H37" />
-		<Angle angle="1.9295313012498112" k="449.2094" type1="LIG-C21" type2="LIG-C23" type3="LIG-H44" />
-		<Angle angle="1.980634541748205" k="445.2473" type1="LIG-C21" type2="LIG-C23" type3="LIG-H45" />
-		<Angle angle="1.9343833165703552" k="458.9129" type1="LIG-C21" type2="LIG-C23" type3="LIG-H46" />
-		<Angle angle="1.9525871006686562" k="438.9979" type1="LIG-C21" type2="LIG-C24" type3="LIG-H47" />
-		<Angle angle="1.9385197468975819" k="463.1829" type1="LIG-C21" type2="LIG-C24" type3="LIG-H48" />
-		<Angle angle="1.938833906162941" k="457.2636" type1="LIG-C21" type2="LIG-C24" type3="LIG-H49" />
-		<Angle angle="2.0103924054947084" k="257.7609" type1="LIG-C22" type2="LIG-C19" type3="LIG-H38" />
-		<Angle angle="1.993584884798003" k="522.5438" type1="LIG-C23" type2="LIG-C21" type3="LIG-C24" />
-		<Angle angle="1.846488535439921" k="304.3926" type1="LIG-H25" type2="LIG-C10" type3="LIG-H26" />
-		<Angle angle="1.8644305201504225" k="305.5745" type1="LIG-H27" type2="LIG-C11" type3="LIG-H28" />
-		<Angle angle="1.8596134114149183" k="296.6964" type1="LIG-H29" type2="LIG-C12" type3="LIG-H30" />
-		<Angle angle="1.8451620852084052" k="289.4325" type1="LIG-H32" type2="LIG-C15" type3="LIG-H33" />
-		<Angle angle="1.8747454160297092" k="298.3517" type1="LIG-H34" type2="LIG-C17" type3="LIG-H35" />
-		<Angle angle="1.85908981263932" k="288.7802" type1="LIG-H34" type2="LIG-C17" type3="LIG-H36" />
-		<Angle angle="1.880941334874289" k="311.0687" type1="LIG-H35" type2="LIG-C17" type3="LIG-H36" />
-		<Angle angle="1.8860027897050726" k="302.0778" type1="LIG-H39" type2="LIG-C20" type3="LIG-H40" />
-		<Angle angle="1.8703820928997235" k="284.3408" type1="LIG-H39" type2="LIG-C20" type3="LIG-H41" />
-		<Angle angle="1.8724764880021163" k="264.8033" type1="LIG-H40" type2="LIG-C20" type3="LIG-H41" />
-		<Angle angle="1.8953403012032422" k="369.1442" type1="LIG-H42" type2="LIG-C22" type3="LIG-H43" />
-		<Angle angle="1.8766827314994228" k="247.8747" type1="LIG-H44" type2="LIG-C23" type3="LIG-H45" />
-		<Angle angle="1.8533302261077387" k="293.068" type1="LIG-H44" type2="LIG-C23" type3="LIG-H46" />
-		<Angle angle="1.8837687682625197" k="299.9112" type1="LIG-H45" type2="LIG-C23" type3="LIG-H46" />
-		<Angle angle="1.8889349428484228" k="276.5759" type1="LIG-H47" type2="LIG-C24" type3="LIG-H48" />
-		<Angle angle="1.8876608524944671" k="304.6693" type1="LIG-H47" type2="LIG-C24" type3="LIG-H49" />
-		<Angle angle="1.8535047590329379" k="290.2633" type1="LIG-H48" type2="LIG-C24" type3="LIG-H49" />
+		<Angle angle="2.2732913507226145" k="994.12" type1="LIG-O" type2="LIG-C" type3="LIG-O1" />
+		<Angle angle="2.150245638457014" k="707.93" type1="LIG-O" type2="LIG-C" type3="LIG-C1" />
+		<Angle angle="1.939758930666498" k="700.4" type1="LIG-C" type2="LIG-C1" type3="LIG-N" />
+		<Angle angle="1.9380136014145037" k="546.43" type1="LIG-C" type2="LIG-C1" type3="LIG-C2" />
+		<Angle angle="1.8887953165082634" k="397.48" type1="LIG-C" type2="LIG-C1" type3="LIG-H6" />
+		<Angle angle="2.150245638457014" k="707.93" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" />
+		<Angle angle="1.9074703395046029" k="399.99" type1="LIG-C1" type2="LIG-N" type3="LIG-H" />
+		<Angle angle="1.9074703395046029" k="399.99" type1="LIG-C1" type2="LIG-N" type3="LIG-H2" />
+		<Angle angle="1.946216648898877" k="543.08" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C1" type2="LIG-C2" type3="LIG-H7" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C1" type2="LIG-C2" type3="LIG-H8" />
+		<Angle angle="1.9380136014145037" k="697.05" type1="LIG-N" type2="LIG-C1" type3="LIG-C2" />
+		<Angle angle="1.9177677820913692" k="512.12" type1="LIG-N" type2="LIG-C1" type3="LIG-H6" />
+		<Angle angle="1.8570303241219668" k="341.41" type1="LIG-H" type2="LIG-N" type3="LIG-H2" />
+		<Angle angle="1.9121827284849875" k="392.46" type1="LIG-C2" type2="LIG-C1" type3="LIG-H6" />
+		<Angle angle="1.946216648898877" k="543.08" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C2" type2="LIG-C3" type3="LIG-H9" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C2" type2="LIG-C3" type3="LIG-H10" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C3" type2="LIG-C2" type3="LIG-H7" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C3" type2="LIG-C2" type3="LIG-H8" />
+		<Angle angle="1.946216648898877" k="543.08" type1="LIG-C3" type2="LIG-C4" type3="LIG-C5" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C3" type2="LIG-C4" type3="LIG-H11" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C3" type2="LIG-C4" type3="LIG-H12" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C4" type2="LIG-C3" type3="LIG-H9" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C4" type2="LIG-C3" type3="LIG-H10" />
+		<Angle angle="1.9380136014145037" k="697.05" type1="LIG-C4" type2="LIG-C5" type3="LIG-N1" />
+		<Angle angle="1.9121827284849875" k="392.46" type1="LIG-C4" type2="LIG-C5" type3="LIG-H13" />
+		<Angle angle="1.9121827284849875" k="392.46" type1="LIG-C4" type2="LIG-C5" type3="LIG-H14" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C5" type2="LIG-C4" type3="LIG-H11" />
+		<Angle angle="1.9163715186897738" k="391.62" type1="LIG-C5" type2="LIG-C4" type3="LIG-H12" />
+		<Angle angle="1.9074703395046029" k="399.99" type1="LIG-C5" type2="LIG-N1" type3="LIG-H3" />
+		<Angle angle="1.9074703395046029" k="399.99" type1="LIG-C5" type2="LIG-N1" type3="LIG-H4" />
+		<Angle angle="1.9177677820913692" k="512.12" type1="LIG-N1" type2="LIG-C5" type3="LIG-H13" />
+		<Angle angle="1.9177677820913692" k="512.12" type1="LIG-N1" type2="LIG-C5" type3="LIG-H14" />
+		<Angle angle="1.8570303241219668" k="341.41" type1="LIG-H3" type2="LIG-N1" type3="LIG-H4" />
+		<Angle angle="1.8776252092954997" k="326.35" type1="LIG-H7" type2="LIG-C2" type3="LIG-H8" />
+		<Angle angle="1.8776252092954997" k="326.35" type1="LIG-H9" type2="LIG-C3" type3="LIG-H10" />
+		<Angle angle="1.8776252092954997" k="326.35" type1="LIG-H11" type2="LIG-C4" type3="LIG-H12" />
+		<Angle angle="1.8929841067130497" k="324.68" type1="LIG-H13" type2="LIG-C5" type3="LIG-H14" />
 	</HarmonicAngleForce>
 	<PeriodicTorsionForce ordering="amber">
-		<Proper k1="1.60387" periodicity1="3" phase1="0.0" type1="LIG-P1" type2="LIG-O3" type3="LIG-C22" type4="LIG-C19" />
-		<Proper k1="1.60387" periodicity1="3" phase1="0.0" type1="LIG-P1" type2="LIG-O3" type3="LIG-C22" type4="LIG-H42" />
-		<Proper k1="1.60387" periodicity1="3" phase1="0.0" type1="LIG-P1" type2="LIG-O3" type3="LIG-C22" type4="LIG-H43" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P1" type2="LIG-O4" type3="LIG-P2" type4="LIG-O7" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P1" type2="LIG-O4" type3="LIG-P2" type4="LIG-O8" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P1" type2="LIG-O4" type3="LIG-P2" type4="LIG-O9" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P2" type2="LIG-O4" type3="LIG-P1" type4="LIG-O3" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P2" type2="LIG-O4" type3="LIG-P1" type4="LIG-O5" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-P2" type2="LIG-O4" type3="LIG-P1" type4="LIG-O6" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O3" type2="LIG-P1" type3="LIG-O5" type4="LIG-H50" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-O3" type2="LIG-C22" type3="LIG-C19" type4="LIG-C16" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-O3" type2="LIG-C22" type3="LIG-C19" type4="LIG-H38" />
-		<Proper k1="1.04600" periodicity1="3" phase1="0.0" type1="LIG-O4" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="5.02080" periodicity1="2" phase1="0.0" type1="LIG-O4" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O4" type2="LIG-P1" type3="LIG-O5" type4="LIG-H50" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O4" type2="LIG-P2" type3="LIG-O7" type4="LIG-H51" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O4" type2="LIG-P2" type3="LIG-O8" type4="LIG-H52" />
-		<Proper k1="1.04600" periodicity1="3" phase1="0.0" type1="LIG-O5" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="5.02080" periodicity1="2" phase1="0.0" type1="LIG-O5" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="3.34720" periodicity1="2" phase1="0.0" type1="LIG-O6" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="2.30120" periodicity1="3" phase1="0.0" type1="LIG-O6" type2="LIG-P1" type3="LIG-O3" type4="LIG-C22" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O6" type2="LIG-P1" type3="LIG-O5" type4="LIG-H50" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O7" type2="LIG-P2" type3="LIG-O8" type4="LIG-H52" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O8" type2="LIG-P2" type3="LIG-O7" type4="LIG-H51" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O9" type2="LIG-P2" type3="LIG-O7" type4="LIG-H51" />
-		<Proper k1="2.23147" periodicity1="3" phase1="0.0" type1="LIG-O9" type2="LIG-P2" type3="LIG-O8" type4="LIG-H52" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C10" type2="LIG-C11" type3="LIG-C16" type4="LIG-C19" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C10" type2="LIG-C11" type3="LIG-C16" type4="LIG-C20" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C10" type2="LIG-C14" type3="LIG-C13" type4="LIG-C12" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C10" type2="LIG-C14" type3="LIG-C13" type4="LIG-C12" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C10" type2="LIG-C14" type3="LIG-C13" type4="LIG-C17" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C10" type2="LIG-C14" type3="LIG-C13" type4="LIG-C17" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C11" type2="LIG-C10" type3="LIG-C14" type4="LIG-C13" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C11" type2="LIG-C10" type3="LIG-C14" type4="LIG-H31" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C11" type2="LIG-C16" type3="LIG-C19" type4="LIG-C22" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C11" type2="LIG-C16" type3="LIG-C19" type4="LIG-C22" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C11" type2="LIG-C16" type3="LIG-C19" type4="LIG-H38" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C11" type2="LIG-C16" type3="LIG-C20" type4="LIG-H39" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C11" type2="LIG-C16" type3="LIG-C20" type4="LIG-H40" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C11" type2="LIG-C16" type3="LIG-C20" type4="LIG-H41" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C12" type2="LIG-C13" type3="LIG-C14" type4="LIG-H31" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C12" type2="LIG-C13" type3="LIG-C17" type4="LIG-H34" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C12" type2="LIG-C13" type3="LIG-C17" type4="LIG-H35" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C12" type2="LIG-C13" type3="LIG-C17" type4="LIG-H36" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C12" type2="LIG-C15" type3="LIG-C18" type4="LIG-C21" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C12" type2="LIG-C15" type3="LIG-C18" type4="LIG-H37" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C13" type2="LIG-C12" type3="LIG-C15" type4="LIG-C18" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C13" type2="LIG-C12" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C13" type2="LIG-C12" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H25" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H25" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H25" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H26" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H26" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C13" type2="LIG-C14" type3="LIG-C10" type4="LIG-H26" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C14" type2="LIG-C10" type3="LIG-C11" type4="LIG-C16" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C14" type2="LIG-C10" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C14" type2="LIG-C10" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-C15" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H29" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H29" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H29" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H30" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H30" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C12" type4="LIG-H30" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H34" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H34" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H34" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H35" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H35" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H35" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H36" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H36" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C14" type2="LIG-C13" type3="LIG-C17" type4="LIG-H36" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C15" type2="LIG-C12" type3="LIG-C13" type4="LIG-C17" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C15" type2="LIG-C18" type3="LIG-C21" type4="LIG-C23" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C15" type2="LIG-C18" type3="LIG-C21" type4="LIG-C23" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C15" type2="LIG-C18" type3="LIG-C21" type4="LIG-C24" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C15" type2="LIG-C18" type3="LIG-C21" type4="LIG-C24" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C16" type2="LIG-C11" type3="LIG-C10" type4="LIG-H25" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C16" type2="LIG-C11" type3="LIG-C10" type4="LIG-H26" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C16" type2="LIG-C19" type3="LIG-C22" type4="LIG-H42" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C16" type2="LIG-C19" type3="LIG-C22" type4="LIG-H43" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C17" type2="LIG-C13" type3="LIG-C12" type4="LIG-H29" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C17" type2="LIG-C13" type3="LIG-C12" type4="LIG-H30" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C17" type2="LIG-C13" type3="LIG-C14" type4="LIG-H31" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C18" type2="LIG-C15" type3="LIG-C12" type4="LIG-H29" />
-		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C18" type2="LIG-C15" type3="LIG-C12" type4="LIG-H30" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H44" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H44" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H44" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H45" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H45" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H45" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H46" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H46" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C23" type4="LIG-H46" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H47" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H47" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H47" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H48" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H48" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H48" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H49" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H49" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C18" type2="LIG-C21" type3="LIG-C24" type4="LIG-H49" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H39" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H39" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H39" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H40" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H40" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H40" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H41" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H41" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C19" type2="LIG-C16" type3="LIG-C20" type4="LIG-H41" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C20" type2="LIG-C16" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C20" type2="LIG-C16" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C20" type2="LIG-C16" type3="LIG-C19" type4="LIG-C22" />
-		<Proper k1="7.94960" periodicity1="1" phase1="3.141592653589793" type1="LIG-C20" type2="LIG-C16" type3="LIG-C19" type4="LIG-C22" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C20" type2="LIG-C16" type3="LIG-C19" type4="LIG-H38" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="1.58992" periodicity1="3" phase1="3.141592653589793" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="4.81160" periodicity1="1" phase1="0.0" type1="LIG-C21" type2="LIG-C18" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C23" type2="LIG-C21" type3="LIG-C18" type4="LIG-H37" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C23" type2="LIG-C21" type3="LIG-C24" type4="LIG-H47" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C23" type2="LIG-C21" type3="LIG-C24" type4="LIG-H48" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C23" type2="LIG-C21" type3="LIG-C24" type4="LIG-H49" />
-		<Proper k1="27.82360" periodicity1="2" phase1="3.141592653589793" type1="LIG-C24" type2="LIG-C21" type3="LIG-C18" type4="LIG-H37" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C24" type2="LIG-C21" type3="LIG-C23" type4="LIG-H44" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C24" type2="LIG-C21" type3="LIG-C23" type4="LIG-H45" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-C24" type2="LIG-C21" type3="LIG-C23" type4="LIG-H46" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H25" type2="LIG-C10" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H25" type2="LIG-C10" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H25" type2="LIG-C10" type3="LIG-C14" type4="LIG-H31" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H26" type2="LIG-C10" type3="LIG-C11" type4="LIG-H27" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H26" type2="LIG-C10" type3="LIG-C11" type4="LIG-H28" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H26" type2="LIG-C10" type3="LIG-C14" type4="LIG-H31" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H29" type2="LIG-C12" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H29" type2="LIG-C12" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H30" type2="LIG-C12" type3="LIG-C15" type4="LIG-H32" />
-		<Proper k1="0.62760" periodicity1="3" phase1="0.0" type1="LIG-H30" type2="LIG-C12" type3="LIG-C15" type4="LIG-H33" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H32" type2="LIG-C15" type3="LIG-C18" type4="LIG-H37" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H33" type2="LIG-C15" type3="LIG-C18" type4="LIG-H37" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H38" type2="LIG-C19" type3="LIG-C22" type4="LIG-H42" />
-		<Proper k1="0.00000" periodicity1="2" phase1="0.0" type1="LIG-H38" type2="LIG-C19" type3="LIG-C22" type4="LIG-H43" />
-		<Improper k1="4.60240" periodicity1="2" phase1="3.141592653589793" type1="LIG-C12" type2="LIG-C14" type3="LIG-C13" type4="LIG-C17" />
-		<Improper k1="4.60240" periodicity1="2" phase1="3.141592653589793" type1="LIG-C10" type2="LIG-C13" type3="LIG-C14" type4="LIG-H31" />
-		<Improper k1="4.60240" periodicity1="2" phase1="3.141592653589793" type1="LIG-C11" type2="LIG-C19" type3="LIG-C16" type4="LIG-C20" />
-		<Improper k1="4.60240" periodicity1="2" phase1="3.141592653589793" type1="LIG-C15" type2="LIG-C21" type3="LIG-C18" type4="LIG-H37" />
-		<Improper k1="4.60240" periodicity1="2" phase1="3.141592653589793" type1="LIG-C16" type2="LIG-C22" type3="LIG-C19" type4="LIG-H38" />
+		<Proper k1="0.00000" periodicity1="2" phase1="3.141592653589793" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-N" />
+		<Proper k1="3.09616" periodicity1="1" phase1="0.0" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="1.12968" periodicity1="2" phase1="3.141592653589793" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="2.30120" periodicity1="3" phase1="3.141592653589793" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="3.34720" periodicity1="1" phase1="0.0" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.33472" periodicity1="3" phase1="3.141592653589793" type1="LIG-O" type2="LIG-C" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-C" type2="LIG-C1" type3="LIG-N" type4="LIG-H" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-C" type2="LIG-C1" type3="LIG-N" type4="LIG-H2" />
+		<Proper k1="0.41840" periodicity1="3" phase1="0.0" type1="LIG-C" type2="LIG-C1" type3="LIG-C2" type4="LIG-C3" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C" type2="LIG-C1" type3="LIG-C2" type4="LIG-H7" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C" type2="LIG-C1" type3="LIG-C2" type4="LIG-H8" />
+		<Proper k1="0.00000" periodicity1="2" phase1="3.141592653589793" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-N" />
+		<Proper k1="3.09616" periodicity1="1" phase1="0.0" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="1.12968" periodicity1="2" phase1="3.141592653589793" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="2.30120" periodicity1="3" phase1="3.141592653589793" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="3.34720" periodicity1="1" phase1="0.0" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.33472" periodicity1="3" phase1="3.141592653589793" type1="LIG-O1" type2="LIG-C" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.46024" periodicity1="1" phase1="0.0" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" type4="LIG-C4" />
+		<Proper k1="0.54392" periodicity1="3" phase1="0.0" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" type4="LIG-C4" />
+		<Proper k1="1.21336" periodicity1="2" phase1="3.141592653589793" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" type4="LIG-C4" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" type4="LIG-H9" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C1" type2="LIG-C2" type3="LIG-C3" type4="LIG-H10" />
+		<Proper k1="0.87864" periodicity1="3" phase1="0.0" type1="LIG-N" type2="LIG-C1" type3="LIG-C2" type4="LIG-C3" />
+		<Proper k1="0.41840" periodicity1="3" phase1="0.0" type1="LIG-N" type2="LIG-C1" type3="LIG-C2" type4="LIG-H7" />
+		<Proper k1="0.41840" periodicity1="3" phase1="0.0" type1="LIG-N" type2="LIG-C1" type3="LIG-C2" type4="LIG-H8" />
+		<Proper k1="0.90793" periodicity1="3" phase1="0.0" type1="LIG-H" type2="LIG-N" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H" type2="LIG-N" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.90793" periodicity1="3" phase1="0.0" type1="LIG-H2" type2="LIG-N" type3="LIG-C1" type4="LIG-C2" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H2" type2="LIG-N" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.46024" periodicity1="1" phase1="0.0" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" type4="LIG-C5" />
+		<Proper k1="0.54392" periodicity1="3" phase1="0.0" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" type4="LIG-C5" />
+		<Proper k1="1.21336" periodicity1="2" phase1="3.141592653589793" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" type4="LIG-C5" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" type4="LIG-H11" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C2" type2="LIG-C3" type3="LIG-C4" type4="LIG-H12" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C3" type2="LIG-C2" type3="LIG-C1" type4="LIG-H6" />
+		<Proper k1="0.87864" periodicity1="3" phase1="0.0" type1="LIG-C3" type2="LIG-C4" type3="LIG-C5" type4="LIG-N1" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C3" type2="LIG-C4" type3="LIG-C5" type4="LIG-H13" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-C3" type2="LIG-C4" type3="LIG-C5" type4="LIG-H14" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C4" type2="LIG-C3" type3="LIG-C2" type4="LIG-H7" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C4" type2="LIG-C3" type3="LIG-C2" type4="LIG-H8" />
+		<Proper k1="0.90793" periodicity1="3" phase1="0.0" type1="LIG-C4" type2="LIG-C5" type3="LIG-N1" type4="LIG-H3" />
+		<Proper k1="0.90793" periodicity1="3" phase1="0.0" type1="LIG-C4" type2="LIG-C5" type3="LIG-N1" type4="LIG-H4" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C5" type2="LIG-C4" type3="LIG-C3" type4="LIG-H9" />
+		<Proper k1="0.33472" periodicity1="3" phase1="0.0" type1="LIG-C5" type2="LIG-C4" type3="LIG-C3" type4="LIG-H10" />
+		<Proper k1="0.41840" periodicity1="3" phase1="0.0" type1="LIG-N1" type2="LIG-C5" type3="LIG-C4" type4="LIG-H11" />
+		<Proper k1="0.41840" periodicity1="3" phase1="0.0" type1="LIG-N1" type2="LIG-C5" type3="LIG-C4" type4="LIG-H12" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H3" type2="LIG-N1" type3="LIG-C5" type4="LIG-H13" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H3" type2="LIG-N1" type3="LIG-C5" type4="LIG-H14" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H4" type2="LIG-N1" type3="LIG-C5" type4="LIG-H13" />
+		<Proper k1="1.25520" periodicity1="3" phase1="0.0" type1="LIG-H4" type2="LIG-N1" type3="LIG-C5" type4="LIG-H14" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H6" type2="LIG-C1" type3="LIG-C2" type4="LIG-H7" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H6" type2="LIG-C1" type3="LIG-C2" type4="LIG-H8" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H7" type2="LIG-C2" type3="LIG-C3" type4="LIG-H9" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H7" type2="LIG-C2" type3="LIG-C3" type4="LIG-H10" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H8" type2="LIG-C2" type3="LIG-C3" type4="LIG-H9" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H8" type2="LIG-C2" type3="LIG-C3" type4="LIG-H10" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H9" type2="LIG-C3" type3="LIG-C4" type4="LIG-H11" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H9" type2="LIG-C3" type3="LIG-C4" type4="LIG-H12" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H10" type2="LIG-C3" type3="LIG-C4" type4="LIG-H11" />
+		<Proper k1="0.50208" periodicity1="3" phase1="0.0" type1="LIG-H10" type2="LIG-C3" type3="LIG-C4" type4="LIG-H12" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H11" type2="LIG-C4" type3="LIG-C5" type4="LIG-H13" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H11" type2="LIG-C4" type3="LIG-C5" type4="LIG-H14" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H12" type2="LIG-C4" type3="LIG-C5" type4="LIG-H13" />
+		<Proper k1="0.65084" periodicity1="3" phase1="0.0" type1="LIG-H12" type2="LIG-C4" type3="LIG-C5" type4="LIG-H14" />
 	</PeriodicTorsionForce>
 	<NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
-		<Atom epsilon="0.3741775" sigma="0.8368" charge="0.9448008571" type="LIG-P1" />
-		<Atom epsilon="0.3741775" sigma="0.8368" charge="1.1244980763" type="LIG-P2" />
-		<Atom epsilon="0.3000012" sigma="0.71128" charge="-0.2767484906" type="LIG-O3" />
-		<Atom epsilon="0.3000012" sigma="0.71128" charge="-0.4596152789" type="LIG-O4" />
-		<Atom epsilon="0.3066473" sigma="0.8803136" charge="-0.5973920812" type="LIG-O5" />
-		<Atom epsilon="0.2959922" sigma="0.87864" charge="-0.5892071296" type="LIG-O6" />
-		<Atom epsilon="0.3066473" sigma="0.8803136" charge="-0.5804457522" type="LIG-O7" />
-		<Atom epsilon="0.3066473" sigma="0.8803136" charge="-0.5792558586" type="LIG-O8" />
-		<Atom epsilon="0.2959922" sigma="0.87864" charge="-0.6373345292" type="LIG-O9" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="0.2775056026" type="LIG-C10" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.3152342450" type="LIG-C11" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.2388494850" type="LIG-C12" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="0.1442400764" type="LIG-C13" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="-0.4317156661" type="LIG-C14" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="0.1381773960" type="LIG-C15" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="0.2984838829" type="LIG-C16" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.2068508799" type="LIG-C17" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="-0.4180329854" type="LIG-C18" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="-0.4588240069" type="LIG-C19" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.4253327944" type="LIG-C20" />
-		<Atom epsilon="0.339967" sigma="0.359824" charge="0.2537795435" type="LIG-C21" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="0.2555343582" type="LIG-C22" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.3132180636" type="LIG-C23" />
-		<Atom epsilon="0.339967" sigma="0.4577296" charge="-0.2738727137" type="LIG-C24" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="-0.0183258341" type="LIG-H25" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="-0.0183258341" type="LIG-H26" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0877954331" type="LIG-H27" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0877954331" type="LIG-H28" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0730280606" type="LIG-H29" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0730280606" type="LIG-H30" />
-		<Atom epsilon="0.2599642" sigma="0.06276" charge="0.2256847320" type="LIG-H31" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0173982069" type="LIG-H32" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0173982069" type="LIG-H33" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0644461944" type="LIG-H34" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0644461944" type="LIG-H35" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0644461944" type="LIG-H36" />
-		<Atom epsilon="0.2599642" sigma="0.06276" charge="0.1646502150" type="LIG-H37" />
-		<Atom epsilon="0.2599642" sigma="0.06276" charge="0.1637844033" type="LIG-H38" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.1273359006" type="LIG-H39" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.1273359006" type="LIG-H40" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.1273359006" type="LIG-H41" />
-		<Atom epsilon="0.2471353" sigma="0.0656888" charge="0.0493637226" type="LIG-H42" />
-		<Atom epsilon="0.2471353" sigma="0.0656888" charge="0.0493637226" type="LIG-H43" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0848636275" type="LIG-H44" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0848636275" type="LIG-H45" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0848636275" type="LIG-H46" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0674325089" type="LIG-H47" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0674325089" type="LIG-H48" />
-		<Atom epsilon="0.2649533" sigma="0.0656888" charge="0.0674325089" type="LIG-H49" />
-		<Atom epsilon="0.0" sigma="0.0" charge="0.4670479758" type="LIG-H50" />
-		<Atom epsilon="0.0" sigma="0.0" charge="0.4522283960" type="LIG-H51" />
-		<Atom epsilon="0.0" sigma="0.0" charge="0.4407605726" type="LIG-H52" />
+		<Atom epsilon="0.304812" sigma="0.612119" charge="-0.844800" type="LIG-O" />
+		<Atom epsilon="0.331521" sigma="0.413379" charge="0.887600" type="LIG-C" />
+		<Atom epsilon="0.304812" sigma="0.612119" charge="-0.844800" type="LIG-O1" />
+		<Atom epsilon="0.339771" sigma="0.451035" charge="0.018500" type="LIG-C1" />
+		<Atom epsilon="0.365019" sigma="0.135143" charge="-0.892800" type="LIG-N" />
+		<Atom epsilon="0.11065" sigma="0.04184" charge="0.329800" type="LIG-H" />
+		<Atom epsilon="0.11065" sigma="0.04184" charge="0.329800" type="LIG-H2" />
+		<Atom epsilon="0.339771" sigma="0.451035" charge="-0.063400" type="LIG-C2" />
+		<Atom epsilon="0.339771" sigma="0.451035" charge="-0.077400" type="LIG-C3" />
+		<Atom epsilon="0.339771" sigma="0.451035" charge="-0.121400" type="LIG-C4" />
+		<Atom epsilon="0.339771" sigma="0.451035" charge="0.147800" type="LIG-C5" />
+		<Atom epsilon="0.365019" sigma="0.135143" charge="-0.906800" type="LIG-N1" />
+		<Atom epsilon="0.11065" sigma="0.04184" charge="0.340800" type="LIG-H3" />
+		<Atom epsilon="0.11065" sigma="0.04184" charge="0.340800" type="LIG-H4" />
+		<Atom epsilon="0.2422" sigma="0.0870272" charge="0.039700" type="LIG-H6" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.046700" type="LIG-H7" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.046700" type="LIG-H8" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.034200" type="LIG-H9" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.034200" type="LIG-H10" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.038700" type="LIG-H11" />
+		<Atom epsilon="0.260018" sigma="0.0870272" charge="0.038700" type="LIG-H12" />
+		<Atom epsilon="0.2422" sigma="0.0870272" charge="0.038700" type="LIG-H13" />
+		<Atom epsilon="0.2422" sigma="0.0870272" charge="0.038700" type="LIG-H14" />
 	</NonbondedForce>
 </ForceField>

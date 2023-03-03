@@ -3,13 +3,22 @@ from openmm.app import *
 from openmm import *
 from openmm.unit import *
 from sys import stdout
-
+import numpy as np
+import pandas as pd
+import re
+import time
+from datetime import datetime
+from xml.etree.ElementTree import Element
+from xml.etree.ElementTree import SubElement
+from xml.etree.ElementTree import ElementTree
+import math
 
 
 # 输入文件
 profile="protein.pdb"
-ligfile="lig.pdb"
-ligtop="lig.xml"
+liggro="LIG.gro"
+ligtop="LIG_GMX.top"
+ligxml="lig.xml"
 ph=7.0
 
 # 系统设置
@@ -35,7 +44,7 @@ platform = Platform.getPlatformByName('CUDA')
 recordinpdb=False
 recordindcd=True
 stdreport=True
-pdbReporter = PDBReporter("trajectory.pdb",5000)
+pdbreporter = PDBReporter("trajectory.pdb",5000)
 dcdReporter = DCDReporter('trajectory.dcd', 5000)
 stdReporter = StateDataReporter(stdout, 1000, totalSteps=steps,
     step=True, speed=True, progress=True,kineticEnergy=True, potentialEnergy=True, temperature=True, separator='\t')
@@ -56,18 +65,29 @@ fixer.addMissingHydrogens(ph)
 PDBFile.writeFile(fixer.topology,fixer.positions,open("protein_fixed.pdb","w"))
 print("蛋白处理完成------------------------------")
 
+# 处理配体
+print("处理配体中--------------------------------")
+gro=GromacsGroFile(liggro)
+top=GromacsTopFile(ligtop)
+system = top.createSystem(nonbondedMethod=NoCutoff)
+integrator = LangevinMiddleIntegrator(300*kelvin, 1/picosecond, 0.004*picoseconds)
+simulation = Simulation(top.topology, system, integrator)
+simulation.context.setPositions(gro.positions)
+simulation.minimizeEnergy()
+positions=simulation.context.getState(getPositions=True).getPositions()
+PDBFile.writeFile(simulation.topology,positions,open("lig.pdb","w"))
+
 # 合并蛋白和配体并生成盒子
 print("合并蛋白-配体并生成模拟体系---------------")
-lig=PDBFile(ligfile)
+lig=PDBFile("lig.pdb")
 pro=PDBFile("protein_fixed.pdb")
 modeller=Modeller(pro.topology,pro.positions)
 modeller.add(lig.topology,lig.positions)
-forcefield=ForceField("amber14-all.xml","amber14/tip3p.xml",ligtop)
+forcefield=ForceField("amber14-all.xml","amber14/tip3p.xml",ligxml)
 modeller.addSolvent(padding=8*angstrom,forcefield=forcefield,neutralize=True)
 mergedTopology=modeller.topology
 mergedPositions=modeller.positions
 PDBFile.writeFile(mergedTopology,mergedPositions,open("complex.pdb","w"))
-
 
 # 构建模拟系统
 print("模拟准备中--------------------------------")
@@ -79,7 +99,6 @@ integrator.setConstraintTolerance(constraintTolerance)
 simulation = Simulation(mergedTopology, system, integrator, platform)
 simulation.context.setPositions(mergedPositions)
 
-
 # 最小化
 print("能量最小化--------------------------------")
 simulation.minimizeEnergy()
@@ -89,10 +108,11 @@ print("平衡中------------------------------------")
 simulation.context.setVelocitiesToTemperature(temperature)
 simulation.step(equilibrationSteps)
 
+
 # 成品模拟
 print("Simulating--------------------------------")
 if recordinpdb:
-    simulation.reporters.append(pdbReporter)
+    simulation.reporters.append(pdbreporter)
 if recordindcd:
     simulation.reporters.append(dcdReporter)
 if stdreport:
@@ -101,3 +121,5 @@ simulation.reporters.append(dataReporter)
 simulation.reporters.append(checkpointReporter)
 simulation.currentStep = 0
 simulation.step(steps)
+
+
