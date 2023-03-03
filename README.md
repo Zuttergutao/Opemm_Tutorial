@@ -25,7 +25,7 @@ python itp2xml.py xxx.itp xxx.xml
 Before running, you should open the script to change the protein and ligand filename.     
 Also, simulation paramters can be changed at the beginning of the file as you wish.
 
-protein pdbfile, ligand gro,itp,top file, generated ligand xml file (by `itp2xml.py`) are nedded. 
+*protein pdbfile*, *ligand gro,itp,top file*, generated ligand xml file (by `itp2xml.py`) are nedded. 
 Usage:
 ```python
 python simulation.py
