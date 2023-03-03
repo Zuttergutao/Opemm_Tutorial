@@ -1,4 +1,4 @@
-# Opemm_Turtorial
+# Opemm_Tutorial
 
 This tutorial is used to simulate a protein-ligand system by openmm.  
 I've seen a few examples of simulating protein-ligand complexes by openmm before this.  
